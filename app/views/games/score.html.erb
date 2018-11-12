@@ -1,0 +1,13 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+
+<h4><%= @letters %></h4>
+<p><%= @userword %></p>
+
+
+<p>Your result is: <%= @result[:message] %></p>
+<p>Your score is: <%= @result[:score] %></p>
+<p>Your time is: <%= @result[:time] %></p>
+
+
+<%= link_to "Play again", "new" %>
